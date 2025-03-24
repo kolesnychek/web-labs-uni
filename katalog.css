@@ -1,0 +1,107 @@
+.katalog-container {
+    background-color: #FFA3B3;
+    width: 60%;
+    height: 5.3rem;
+    border-radius: 1rem;
+    margin-left: 20%;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-katalog {
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: white;
+}
+
+.katalog-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FF8095;
+    font-weight: 600;
+    font-size: 3.125rem;
+    padding-left: 0;
+    /*text-decoration: underline;*/
+}
+
+.katalog-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    row-gap: 3rem;
+}
+
+.katalog-grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 17rem;
+}
+
+.katalog-grid-item img {
+    width: 17rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.katalog-description {
+    width: 17rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color:#FF8095;
+    opacity: 80%;
+    position: absolute;
+    display: none;
+    align-items: center;
+}
+
+.katalog-ingredient-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0 1rem;
+}
+
+.name-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-product img {
+    width: 2.18rem;
+    height: 2rem;
+    border-radius: 0;
+}
+
+.name-product-text {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FF8095;
+    height: 3.2rem;
+}
+
+.katalog-description-text {
+    font-weight: 580;
+    font-size: 1.2rem;
+    color: #5C5C5C;
+    width: 18rem;
+    height: 8rem;
+}
+
+.cost-product {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FF8095;
+}
+
+#button-katalog {
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 2.2rem;
+    height: 2.8rem;
+}
+

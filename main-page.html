@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcedo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="title-container">
+            <img src="/photos/Dulcedo.png"/>
+        </div>
+        <header id="headernav">
+            <!-- <div class="header-menu" onclick="toggleMenu()"> -->
+                <!-- <img src="./images/burger-menu.png" alt="Menu icon">
+            </div> -->
+            <nav id="nav-links" class="header-nav">
+                <ul id="menu">
+                    <li class="header-nav-item"><button onclick="location.href = '#actual-id';"class="header-links">Актуальне</button></li>
+                    <li class="header-nav-item"><button onclick="location.href = '#catalog-id';" class="header-links">Каталог</button></li>
+                    <li class="header-nav-item"><button onclick="location.href = '#answer-id';" class="header-links">Запитання</button></li>
+                    <li class="header-nav-item"><button onclick="location.href = '#contacts-id';" class="header-links">Контакти</button></li>
+                </ul>
+            </nav>
+            <div class="like-basket-container">
+                <div onclick="location.href = 'registration.html#registration-hero-id';" class="button-auto">
+                    <img src="/photos/autorisation button.png"/>
+                </div>
+                
+                <div class="button-basket">
+                    <img src="/photos/basket button.png"/>
+                </div>
+            </div>
+            <div class="cart" id="cart-id">
+                <p class="cart-title">Кошик</p>
+                <div class="cart-content"></div>
+                <div class="total">
+                    <div class="total-title">Всього:</div>
+                    <div class="total-price">0₴</div>
+                </div>
+                <button class="button-order-cart">Оформити замовлення</button>
+                <i href="" class="close-cart">
+                    <img src="/photos/close.png"/>
+                </i>
+            </div>
+
+        </header>
+        <div class="hero-lower-container">
+            <div class="hero-lower-left">
+                <h1 class="hero-lower-title">Рецепт наших макарунів – шоколад,
+                    мигдаль і любов!</h1>
+                <p class="hero-lower-paragraph">
+                    Майстерня солодкого настрою Dulcedo пропонує авторські десерти з доставкою та самовивозом у м. Львів
+                </p>
+                <button onclick="location.href = '#actual-id';" id="button-section1" class="default-button">У наявності</button>
+            </div>
+    </section>
+
+    <section class="about-us">
+        <div class="about-container">
+            <h1 class="title-about">Про нас</h1>
+        </div>
+        <div class="about-info-container">
+            <div class="about-left-container">
+                <img src="/photos/Alyona photo.png"/>
+            </div>
+            <div class="about-right-container">
+                <h1 class="pro-dulcedo">Про Dulcedo</h1>
+                <p class="text-about-alyona">
+                    Мене звати Альона, мені 23 роки і я – артистка балету, 
+                    що закохана у процес випічки.
+                </p>
+                <p class="text-about-alyona">
+                    Коли мені було 11, я опанувала свій перший десерт – багатошаровий 
+                    торт «Мішель», що стало початком мого шляху як майстрині. 
+                    Згодом любов до експериментів допомогла мені знайти себе 
+                    у виробництві макарунів та еклерів.
+                </p>
+                <p class="text-about-alyona">
+                    Для мене пекарська справа ­– це мистецтво, яке я презентую людям 
+                    у вигляді десертів. Саме тому я вважаю, що моя Майстерня солодкого 
+                    настрою відповідальна не тільки за чудовий смак десертів, а й за 
+                    відмінну подачу.
+                </p>  
+                <p class="text-about-alyona">
+                    Я охоче беруся за нові проєкти і з радістю 
+                    обговорю всі деталі, щоб зробити Ваш досвід неперевершеним!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="actual" id="actual-id">
+        <div class="actual-container">
+            <h1 class="title-actual">Актуальне</h1>
+        </div>
+        <nav id="nav-links" class="actual-nav">
+            <ul>
+                <li class="actual-nav-item"><a href="#actual-id">Макаруни</a></li>
+                <li class="actual-nav-item"><a href="#actual-id">Еклери</a></li>
+            </ul>
+        </nav>
+        <div class="actual-grid-container">
+            <div class="actual-grid-item">
+                <img src="/photos/cookies/polynutsia-milkshake-cookies.png" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: полуничний шоколад, вершки, ваніль</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Полуничний Мілкшейк</p>
+                </div>
+                <p class="actual-description-text">Ганаш на основі вершків та полуничного шоколаду, що нагадує полуничний мілкшейк.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+            <div class="actual-grid-item">
+                <img src="/photos/cookies/rafaello-cookies.png" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: шоколад білий, вершки, вершки кокосові, мигдальна паста, масло, кокосова стружка, подрібнений мигдаль</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Рафаело</p>
+                </div>
+                <p class="actual-description-text">Начинка, у якій білий шоколад, кокос і мигдаль досягли ідеального поєднання.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+            <div class="actual-grid-item">
+                <img src="/photos/cookies/parmezan-smorodyna.png" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: шоколад білий, вершки, сир Пармезан, пюре чорна смородина, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Пармезан-Чорна смородина</p>
+                </div>
+                <p class="actual-description-text">Кисла і солодка чорна смородина ідеально поєднується з пряним і трохи солоним Пармезаном.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+            <div class="actual-grid-item">
+                <img src="/photos/cookies/chocolate-cheesecake-cookies.png" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: шоколад молочний, вершки, сир Філадельфія, масло, цукор, мигдалеве борошно, сіль, жовток, борошно</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Шоколадний Чизкейк</p>
+                </div>
+                <p class="actual-description-text">Начинка з шоколаду і вершкового сиру, прикрашена мигдалевим сабле.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+            <div class="actual-grid-item">
+                <img src="/photos/cookies/mango-marakya-cookies.png" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: шоколад білий, пюре манго, пюре маракуя, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Манго-Маракуя</p>
+                </div>
+                <p class="actual-description-text">Фруктова начинка з манго і маракуї, що нагадує про сонячні дні.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+            <div class="actual-grid-item">
+                <img src="/photos/cookies/fererro-cookies.png" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: шоколад молочний, вершки, горіхова паста, фундук, олія</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Фереро</p>
+                </div>
+                <p class="actual-description-text">Баланс ніжного молочного шоколаду і фундука.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+
+
+            <!-- !!!ЕКЛЕРИ!!! -->
+
+            <div class="actual-grid-item">
+                <img src="/photos/eklers/mango-eklers.jpg" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: заварне тісто, вершки, пюре манго, пюре маракуї, цукор, жовток, вершкове масло, цукрова пудра, крохмаль, желатин, вода, сироп глюкози, пектин</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Крем Манго-Маракуя</p>
+                </div>
+                <p class="actual-description-text">Соковиті манго й маракуя, що об'єднані у ніжній начинці цього десерту.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+
+            <div class="actual-grid-item">
+                <img src="/photos/eklers/vanil-cream-ekler.jpg" class="actual-photo"/>
+                <div class="actual-descr hidden-actual">
+                    <p class="actual-descr-text">Склад: заварне тісто, вершки, молоко, сухе молоко, цукор, жовток, ванільна паста, рисове борошно, желатин, вода, шоколад білий</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Ванільний Крем</p>
+                </div>
+                <p class="actual-description-text">Ніжний еклер з ванільним кремом усередині, прикрашений свіжими ягодами і фруктами.</p>
+                <p class="cost-product">50₴/1шт</p>
+                <button class="default-button button-actual">Додати в кошик</button>
+            </div>
+    </section>
+
+    <section class="katalog" id="catalog-id">
+        <div class="katalog-container">
+            <h1 class="title-katalog">Каталог</h1>
+        </div>
+        <nav id="nav-links" class="katalog-nav">
+            <ul>
+                <li class="katalog-nav-item"><a href="#catalog-id">Макаруни</a></li>
+                <li class="katalog-nav-item"><a href="#catalog-id">Еклери</a></li>
+            </ul>
+        </nav>
+        <div class="katalog-grid-container">
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/lavanda-abrycos-marakyia-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: насіння лаванди, вершки, шоколад білий, пюре абрикос, пюре маракуя, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Лаванда Абрикос-Маракуя</p>
+                </div>
+                <p class="katalog-description-text">Ніжне поєднання лавандового ганашу з абрикосово-маракуєвим конфі.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/late-caramelcheese-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: вершки, цукор, шоколад білий, кава сублімована, Гудбрандсдален</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Лате-Карамельний Сир Гудбрандсдален</p>
+                </div>
+                <p class="katalog-description-text">Теплі відтінки лате і карамельного сиру Гудбрандсдален.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/fistashka-malyna-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, фісташкова паста, вершки, пюре малина, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Фісташка-Малина</p>
+                </div>
+                <p class="katalog-description-text">Витончена фісташка, що підкреслюється яскравою малиною.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/dorblu-grysha-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, сир Дор Блю, пюре груша, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Дор Блю-Груша</p>
+                </div>
+                <p class="katalog-description-text">Гармонійне поєднання пряного Дор Блю і солодкої груші.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/polynutsia-milkshake-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: полуничний шоколад, вершки, ваніль</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Полуничний Мілкшейк</p>
+                </div>
+                <p class="katalog-description-text">Ганаш на основі вершків та полуничного шоколаду, що нагадує полуничний мілкшейк.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/plombir-loshyna-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: білий шоколад, вершки, ваніль, пюре з лохини, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Ванільний Пломбір-Лохина</p>
+                </div>
+                <p class="katalog-description-text">Поєднання смаків ванільного пломбіру й лохини.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/snickers-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: молочний шоколад, вершки, арахісова паста, цукор, вода, масло</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Снікерс</p>
+                </div>
+                <p class="katalog-description-text">Шоколадно-арахісова начинка, що нагадує відомий десерт.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/dunya-malyna-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, пюре диня, малина сублімована, пюре малина, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Диня-Малина</p>
+                </div>
+                <p class="katalog-description-text">Поєднання ніжного динного ганашу і контрастного малинового конфі.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/laum-polynutsya-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад лимонний, вершки, пюре полуничне, пектин, цукор, сублімована полуниця</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Лайм-Полуниця</p>
+                </div>
+                <p class="katalog-description-text">Яскраве і свіже поєднання смаків полуниці і лайму.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/rubi-malyna-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад Рубі, шоколад білий, вершки, пюре малина, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Рожевий шоколад Рубі-Малина</p>
+                </div>
+                <p class="katalog-description-text">Фруктові нотки шоколаду Рубі, що доповнюються малиновим конфі.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/peanut_cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, арахісова паста, вершки, арахісове печиво</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Арахісове печиво</p>
+                </div>
+                <p class="katalog-description-text">Макарун з арахісовою начинкою, задекорований арахісовим печивом.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/pranyi-garbuz-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, гвоздика, кориця, імбир, какао</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Пряний гарбуз</p>
+                </div>
+                <p class="katalog-description-text">Шоколадно-вершковий ганаш, що має насичений пряний запах.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/apple-pie-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, яблука, кориця, гвоздика, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Яблучний пиріг</p>
+                </div>
+                <p class="katalog-description-text">Начинка, що нагадує теплий і пряний яблучний пиріг.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/rafaello-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, вершки кокосові, мигдальна паста, масло, кокосова стружка, подрібнений мигдаль</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Рафаело</p>
+                </div>
+                <p class="katalog-description-text">Начинка, у якій білий шоколад, кокос і мигдаль досягли ідеального поєднання.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/banana-chocolate-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад молочний, вершки, пюре банан, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Банан у шоколаді</p>
+                </div>
+                <p class="katalog-description-text">Поєднання банану й шоколаду сподобається любителям і любителькам ніжних і солодких смаків.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/parmezan-smorodyna.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, сир Пармезан, пюре чорна смородина, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Пармезан-Чорна смородина</p>
+                </div>
+                <p class="katalog-description-text">Кисла і солодка чорна смородина ідеально поєднується з пряним і трохи солоним Пармезаном.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/oreo-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, печиво Орео</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Орео</p>
+                </div>
+                <p class="katalog-description-text">Комбінація хрусткого печива й вершкового крему, що захоплює подих.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/chocolate-cheesecake-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад молочний, вершки, сир Філадельфія, масло, цукор, мигдалеве борошно, сіль, жовток, борошно</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Шоколадний Чизкейк</p>
+                </div>
+                <p class="katalog-description-text">Начинка з шоколаду і вершкового сиру, прикрашена мигдалевим сабле.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/lichi-malyna-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, пюре лічі, пюре малина, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Лічі-Малина</p>
+                </div>
+                <p class="katalog-description-text">Поєднання лічі й малини сподобається любителям і любителькам солодких фруктових відтінків.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/mango-marakya-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, пюре манго, пюре маракуя, пектин, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Манго-Маракуя</p>
+                </div>
+                <p class="katalog-description-text">Фруктова начинка з манго і маракуї, що нагадує про сонячні дні.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/capucino-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад білий, вершки, кава сублімована, лікер Бейліс</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Капучино-Крем Бейліс</p>
+                </div>
+                <p class="katalog-description-text">Класичне поєднання кави й вершкового лікеру.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/fundyk-caramel-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад молочний з фундуком, вершки, цукор, вода, вершки, масло</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Фундук-Карамель</p>
+                </div>
+                <p class="katalog-description-text">Хрусткий фундук у поєднанні з рідкою карамеллю.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/fererro-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад молочний, вершки, горіхова паста, фундук, олія</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Фереро</p>
+                </div>
+                <p class="katalog-description-text">Баланс ніжного молочного шоколаду і фундука.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/orange-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: шоколад апельсиновий, вершки</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Апельсин</p>
+                </div>
+                <p class="katalog-description-text">Шоколадний ганаш, що має виражений апельсиновий смак.</p>
+            </div>
+            <div class="katalog-grid-item">
+                <img src="/photos/cookies/double-caramel-cookies.png" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: вершки, вода, цукор, масло, сіль, шоколад білий</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Подвійна Карамель</p>
+                </div>
+                <p class="katalog-description-text">Карамельний ганаш з дрібкою солі і рідкою карамеллю всередині.</p>
+            </div>
+
+
+            <!-- !!!ЕКЛЕРИ!!! -->
+
+            <div class="katalog-grid-item">
+                <img src="/photos/eklers/vanil-cream-ekler.jpg" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: заварне тісто, вершки, молоко, сухе молоко, цукор, жовток, ванільна паста, рисове борошно, желатин, вода, шоколад білий</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Ванільний Крем</p>
+                </div>
+                <p class="katalog-description-text">Ніжний еклер з ванільним кремом усередині, прикрашений свіжими ягодами і фруктами.</p>
+            </div>
+
+            <div class="katalog-grid-item">
+                <img src="/photos/eklers/choco-cream-eklers.jpg" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: заварне тісто, вершки, сухе молоко, молоко, цукор, жовток, какао, ванільна паста, рисове борошно, желатин, вода, шоколад, олія рослинна</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Шоколадний Крем</p>
+                </div>
+                <p class="katalog-description-text">Шоколадний крем всередині і шоколадна глазур ззовні, що створюють витончену комбінацію солодких і терпких смаків.</p>
+            </div>
+
+            <div class="katalog-grid-item">
+                <img src="/photos/eklers/mango-eklers.jpg" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: заварне тісто, вершки, пюре манго, пюре маракуї, цукор, жовток, вершкове масло, цукрова пудра, крохмаль, желатин, вода, сироп глюкози, пектин</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Крем Манго-Маракуя</p>
+                </div>
+                <p class="katalog-description-text">Соковиті манго й маракуя, що об'єднані у ніжній начинці цього десерту.</p>
+            </div>
+
+            <div class="katalog-grid-item">
+                <img src="/photos/eklers/coconut-cream-ekler.jpg" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: заварне тісто, вершки, молоко, кокосове молоко, цукор, жовток, ванільна паста, кокосова стружка, крохмаль, вершкове масло, пюре вишні, вода, сироп глюкози, цукор, пектин, желатин</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Кокосовий Крем</p>
+                </div>
+                <p class="katalog-description-text">Еклер з кремом на основі кокосового молока, прикрашений вишневою глазур'ю і кокосовою стружкою.</p>
+            </div>
+
+            <div class="katalog-grid-item">
+                <img src="/photos/eklers/fistashka-cream-ekler.jpg" class="katalog-photo"/>
+                <div class="katalog-description hidden-katalog">
+                    <p class="katalog-ingredient-text">Склад: заварне тісто, шоколад білий, желатин, вода, сироп глюкози, ваніль, вершки, фісташкова паста, пюре малини, агар-агар, цукор</p>
+                </div>
+                <div class="name-product">
+                    <p class="name-product-text">Крем Фісташка-Малина</p>
+                </div>
+                <p class="katalog-description-text">Комбінація збитого фісташкового ганаша і малинового гелю, що зачаровує.</p>
+            </div>
+    </section>
+
+    <section class="create" id="create-id">
+        <div class="create-title-container">
+            <h1 class="create-title">Створи сам</h1>
+        </div>
+
+        <div class="create-main-container">
+            <img src="/photos/create-photo.png"/>
+            <div class="create-left-container">
+                <h1 class="create-div-title">Створіть свій торт!</h1>
+                <p class="create-text">
+                Виберіть бісквіт і начинку і створіть свій шедевр. Ми приготуємо Ваш
+                торт на молочному, горіховому, кокосовому чи шоколадному бісквіті.
+                </p>
+                <button id="button-create" class="default-button">Створити</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="answer" id="answer-id">
+        <div class="answer-title-container">
+            <h1 class="answer-title">Запитання/відповідь</h1>
+        </div>
+        <div class="answer-list">
+            <div class="question-answer">
+                <div class="answer-item">
+                    <p class="answer-text">Яка ціна макаронсів?</p>
+                    <div class="arrow-href">
+                        <img src="/photos/arrow.png"/>
+                    </div>
+                </div>
+                <div class="answer-right" id="answer-hidden">
+                    <p class="answer-right-text">50₴/1шт</p>
+                </div>
+            </div>
+
+            <div class="question-answer">
+                <div class="answer-item">
+                    <p class="answer-text">Яка ціна еклерів?</p>
+                    <div class="arrow-href">
+                        <img src="/photos/arrow.png"/>
+                    </div>
+                </div>
+                <div class="answer-right" id="answer-hidden">
+                    <p class="answer-right-text">50₴/1шт</p>
+                </div>
+            </div>
+
+            <div class="question-answer">
+                <div class="answer-item">
+                    <p class="answer-text">Скільки часу займає виконання замовлення?</p>
+                    <div class="arrow-href">
+                        <img src="/photos/arrow.png"/>
+                    </div>
+                </div>
+                <div class="answer-right" id="answer-hidden">
+                    <p class="answer-right-text">Виконання замовлення після його підтвердження займає 2-3 дні.</p>
+                </div>
+            </div>
+
+            <div class="question-answer">
+                <div class="answer-item">
+                    <p class="answer-text">У який час проводиться доставка?</p>
+                    <div class="arrow-href">
+                        <img src="/photos/arrow.png"/>
+                    </div>
+                </div>
+                <div class="answer-right" id="answer-hidden">
+                    <p class="answer-right-text">Доставка може проводитися у будь-який час щодня (з урахуванням комендантської години).</p>
+                </div>
+            </div>
+
+            <div class="question-answer">
+                <div class="answer-item">
+                    <p class="answer-text">Де можна переглянути відгуки?</p>
+                    <div class="arrow-href">
+                        <img src="/photos/arrow.png"/>
+                    </div>
+                </div>
+                <div class="answer-right" id="answer-hidden">
+                    <p class="answer-right-text">Переглянути відгуки можна на нашій сторінці Instagram за посиланням у розділі «Контакти». 
+                        Там Ви також зможете побачити фотографії готових виробів і відео процесу приготування.</p>
+                </div>
+            </div>
+
+            <div class="question-answer">
+                <div class="answer-item">
+                    <p class="answer-text">Чи можна повернути гроші за замовлення?</p>
+                    <div class="arrow-href">
+                        <img src="/photos/arrow.png"/>
+                    </div>
+                </div>
+                <div class="answer-right" id="answer-hidden">
+                    <p class="answer-right-text">На жаль, після оплатили замовлення повернути гроші неможливо.</p>
+                </div>
+            </div>
+
+            <div class="question-answer">
+                <div class="answer-item">
+                    <p class="answer-text">Як оформити спеціальне замовлення?</p>
+                    <div class="arrow-href">
+                        <img src="/photos/arrow.png"/>
+                    </div>
+                </div>
+                <div class="answer-right" id="answer-hidden">
+                    <p class="answer-right-text">Для оформлення спеціального замовлення ми радимо зв’язатися з нами через Telegram або Instagram.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts-id">
+        <div class="contacts-title-container">
+            <h1 class="contacts-title">Контакти</h1>
+        </div>
+        <div class="contacts-main-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.
+            784862081863!2d23.99484071567487!3d49.82770857939427!2m3!1f0!2f0!3f0!3m2!1i1024
+            !2i768!4f13.1!3m3!1m2!1s0x473ae77f7a7febbb%3A0xf1aa399f0eb07b8a!2z0LLRg9C70LjR
+            htGPINCT0ZbQv9GB0L7QstCwLCAyMiwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0
+            LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1681114842806!5m2!1suk!2sua" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contacts-list">
+                <li class="contacts-item">
+                <a target=”_blank” href="tel: +38 (063)-856-16-28" class="contacts-item-link">
+                    +38 (063)-856-16-28
+                </a>
+                </li>
+                <li class="contacts-item">
+                    <a target=”_blank” href="https://goo.gl/maps/8kZvtbqRXZws2Weq5" class="contacts-item-link">
+                        вул. Гіпсова, 22
+                    </a>
+                </li>
+                <div class="soc-list">
+                    <li class="soc-item">
+                        <a class="soc-item-link" target=”_blank” href="https://instagram.com/dulcedo_me?igshid=YmMyMTA2M2Y=">
+                            <img src="/photos/icon-instagram.png"/>
+                        </a>
+                    </li>
+                    <li class="soc-item">
+                        <a class="soc-item-link" target=”_blank” href="https://t.me/alyona_myloslavska">
+                            <img src="/photos/icon-telegram.png"/>
+                        </a>
+                    </li>
+                    <li class="soc-item">
+                        <a class="soc-item-link" target=”_blank” href="https://msng.link/o/?0638561628=vi">
+                            <img src="/photos/icon-viber.png"/>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <img src="/photos/Dulcedo.png"/>
+        </div>
+    </footer>
+    
+    <script src="/js/main-page.js"></script>
+</body>
+</html>

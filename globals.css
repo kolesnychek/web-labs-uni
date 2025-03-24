@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --light-gray: #606B74;
+    --gray-main: #222F33;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    display: block;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 3px solid #fc667f;
+    transition: 0.2s;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Global classes*/
+
+.default-button {
+    background: #FF8095;
+    color: white;
+    width: 14rem;
+    height: 3.8rem;
+    cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    
+a:active {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 385px) {
+    body {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    :root {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    :root {
+        font-size: 9px;
+    }
+}

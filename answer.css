@@ -1,0 +1,74 @@
+.answer-title-container {
+    background-color: #FFA3B3;
+    width: 60%;
+    height: 5.3rem;
+    border-radius: 1rem;
+    margin-left: 20%;
+    margin-top: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-title {
+    font-weight: 520;
+    font-size: 2.6rem;
+    color: white;
+}
+  
+.answer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-top: 4.5rem;
+}
+
+.answer-item {
+    background: #ffe1e6;
+    width: 81.75rem;
+    height: 6.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer-text {
+    font-weight: 520;
+    font-size: 2.1rem;
+    color: #5c5c5c;
+    margin-left: 5rem;
+}
+
+.answer-right {
+    width: 81.75rem;
+    height: 5rem;
+    background-color: #ffe1e6;
+    animation: fade 0.5s ease-in-out;
+    display: none;
+}
+
+.answer-right-text {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #5c5c5c;
+    margin-left: 5rem;
+    width: 73rem;
+}
+
+.arrow-href {
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

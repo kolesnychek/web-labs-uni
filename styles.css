@@ -1,0 +1,23 @@
+@import "./normalize.css";
+
+@import "./globals.css";
+
+@import "./hero.css";
+
+@import "/css/about-us.css";
+
+@import "/css/actual.css";
+
+@import "/css/katalog.css";
+
+@import "/css/create.css";
+
+@import "/css/answer.css";
+
+@import "/css/contacts.css";
+
+@import "/css/order.css";
+
+@import "/css/registration.css";
+
+@import "/css/autorization.css";

@@ -1,0 +1,51 @@
+.create-title-container {
+    background-color: #FFA3B3;
+    width: 60%;
+    height: 5.3rem;
+    border-radius: 1rem;
+    margin-left: 20%;
+    margin-top: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-title {
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: white;
+}
+
+.create-main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.create-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.create-div-title {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #bb5664;
+    margin: 0;
+}
+  
+.create-text {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #bb5664;
+    width: 36rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+  
+#button-create {
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: 2.8rem;
+}
